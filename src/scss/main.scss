@@ -1,4 +1,6 @@
 @import "./base/variable";
+@import "./components/parts/layouts";
+@import "./components/keyVisual";
 
 body {
     color: $color-main-text;
