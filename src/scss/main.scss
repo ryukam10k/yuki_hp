@@ -7,8 +7,9 @@
 @import "./components/works";
 @import "./components/portfolio";
 @import "./components/about";
+@import "./components/contact";
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway:400', sans-serif;
     color: $color-main-text;
 }
