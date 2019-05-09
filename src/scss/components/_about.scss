@@ -11,16 +11,17 @@
         background-color: $color-sub;
     }
     &__head {
-        padding: 30px 0 0 100px;
+        padding-top: 50px;
+        padding-left: 100px;
     }
     &__body {
-        padding: 30px 0 0 100px;
+        padding-left: 100px;
     }
     &__foot {
         text-align: center;
         padding-bottom: 30px;
         & i {
-            padding: 35px;
+            padding: 20px 35px;
         }
     }
 
