@@ -3,11 +3,11 @@
     align-items: center;
 
     &__head {
-        flex: 1 1 15%;
+        flex: 1 1 30%;
     }
     &__body {
         display: flex;
-        flex: 1 1 85%;
+        flex: 1 1 70%;
         flex-direction: column;
         &__body {
             display: flex;
