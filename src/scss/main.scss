@@ -1,4 +1,7 @@
+@charset 'utf-8';
+
 @import "./base/variable";
+@import "./base/reset";
 @import "./components/parts/layouts";
 @import "./components/parts/buttons";
 @import "./components/parts/headers";
@@ -8,8 +11,3 @@
 @import "./components/portfolio";
 @import "./components/about";
 @import "./components/contact";
-
-body {
-    font-family: 'Raleway:400', sans-serif;
-    color: $color-main-text;
-}

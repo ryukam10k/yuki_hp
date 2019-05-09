@@ -1,0 +1,24 @@
+@import "./lib/sanitize";
+
+:root, html, body {
+    font-family: 'Raleway:400', sans-serif;
+    color: $color-main-text;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: $color-main-text;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $color-link;
+}
