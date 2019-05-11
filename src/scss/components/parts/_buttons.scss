@@ -1,7 +1,50 @@
 .button {
+	line-height: 50px;
     display: inline-block;
-    border: 1px solid $color-main-text;
-    padding: 35px 150px;
+    padding: 12px 120px;
     text-transform: uppercase;
     letter-spacing: 5px;
+	text-align: center;
+	background: url(/dist/images/waku-01.png) left top / 15px 15px no-repeat , url(/dist/images/waku-02.png) right top / 15px 15px no-repeat ,url(/dist/images/waku-03.png) left bottom / 15px 15px no-repeat ,url(/dist/images/waku-04.png) right bottom / 15px 15px no-repeat #FFF;	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	outline: none;
+	position: relative;
+	z-index: 2;
+	&:hover {
+		background: url(/dist/images/waku-01.png) left top / 15px 15px no-repeat , url(/dist/images/waku-02.png) right top / 15px 15px no-repeat ,url(/dist/images/waku-03.png) left bottom / 15px 15px no-repeat ,url(/dist/images/waku-04.png) right bottom / 15px 15px no-repeat #f7f1ad;
+		transition: all .2s;
+		text-decoration: none;
+		&::before,
+		&::after {
+			width: 0;
+			background-color: #f7f1ad;
+		}
+	}	
+	&::before,
+	&::after {
+		position: absolute;
+		z-index: -1;
+		display: block;
+		content: '';
+		width: 50%;
+		height: 100%;
+		background-color: #FFF;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-transition: all .3s;
+		transition: all .3s;
+	}
+	&::before {
+		top: 0;
+		right: 15px;
+	}
+	&::after {
+		bottom: 0;
+		left: 15px;
+	}
 }
