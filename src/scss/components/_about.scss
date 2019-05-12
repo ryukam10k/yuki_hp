@@ -19,9 +19,9 @@
     }
     &__foot {
         text-align: center;
-        padding-bottom: 30px;
+        padding: 40px 0 60px;
         & i {
-            padding: 20px 35px;
+            padding: 0 35px;
         }
     }
 
@@ -38,10 +38,13 @@
         padding-top: 20px;
         margin-bottom: 30px;
         font-family: 'ヒラギノ角ゴ ProN W6';
+        line-height: 25px;
+        font-weight: 600;
     }
     &__profile {
         margin-bottom: 30px;
         font-family: 'ヒラギノ角ゴ ProN W3';
+        line-height: 25px;
     }
     .fab {
         font-size: 40px;
