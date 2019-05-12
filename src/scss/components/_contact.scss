@@ -1,3 +1,21 @@
+@import "./parts/_contactForm";
+
 .Contact {
-    
+    text-align: center;
+    background-color: $color-sub;
+
+    &__head {
+        position: relative;
+        padding-top: 50px;
+
+        & .title {
+            position: absolute;
+            top: -55px;
+            right: 0;
+            left: 0;
+        }
+    }
+    &__body {
+        padding-bottom: 50px;
+    }
 }
