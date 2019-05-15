@@ -10,7 +10,8 @@ $size-waku: 15px;
 	text-align: center;
 	background: url(/dist/images/waku-01.png) left top / $size-waku $size-waku no-repeat , url(/dist/images/waku-02.png) right top / $size-waku $size-waku no-repeat ,url(/dist/images/waku-03.png) left bottom / $size-waku $size-waku no-repeat ,url(/dist/images/waku-04.png) right bottom / $size-waku $size-waku no-repeat;
 	position: relative;
-
+    cursor: pointer;
+    
     & span {
         background-color: #fff;
         display: inline-block;
