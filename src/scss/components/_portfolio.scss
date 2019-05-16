@@ -28,6 +28,9 @@
     &__thumb {
         display: block;
         background-color: $color-sub;
+        max-width: 250px;
+        width: 100%;
+        height: auto;
     }
     &__title {
         margin-top: 25px;
