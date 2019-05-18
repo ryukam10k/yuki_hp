@@ -9,14 +9,14 @@
         left: 0;
         text-align: center;
         font-size: 17px;
-        letter-spacing: 22px;
+        letter-spacing: 20px;
     }
 
     &__title::before {
         content: '';
         display: block;
         border-bottom: 1px solid $color-main-text;
-        width: 100px;
+        width: 90px;
         margin: 0 auto 23px;
     }
 

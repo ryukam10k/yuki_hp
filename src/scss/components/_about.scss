@@ -21,7 +21,7 @@
         text-align: center;
         padding: 40px 0 60px;
         & i {
-            padding: 0 35px;
+            padding: 0 25px;
         }
     }
 
@@ -30,6 +30,7 @@
         position: absolute;
         top: -50px;
         width: 40%;
+        max-width: 455px;
         height: auto;
         background-color: gray;
     }
@@ -47,7 +48,7 @@
         line-height: 25px;
     }
     .fab {
-        font-size: 40px;
+        font-size: 30px;
         color: gray;
     }
 

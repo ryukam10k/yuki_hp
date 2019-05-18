@@ -1,13 +1,13 @@
 .Works {
     display: flex;
-    align-items: center;
 
     &__head {
-        flex: 1 1 30%;
+        flex: 1 1 25%;
+        padding-top: 100px;
     }
     &__body {
         display: flex;
-        flex: 1 1 70%;
+        flex: 1 1 75%;
         flex-direction: column;
         &__body {
             display: flex;
@@ -19,7 +19,7 @@
         }
     }
     &__item {
-        margin-right: 70px;
+        margin-right: 50px;
         text-transform: uppercase;
         letter-spacing: 5px;
         text-align: center;
@@ -29,12 +29,14 @@
     }
     &__thumb {
         display: block;
-        max-width: 250px;
-        max-width: 100%;
+        max-width: 220px;
+        width: 100%;
         height: auto;
+        //background-color: $color-sub;
     }
     &__title {
         margin-top: 30px;
-        font-size: 12px;
+        font-size: 15px;
+        font-weight: bold;
     }
 }

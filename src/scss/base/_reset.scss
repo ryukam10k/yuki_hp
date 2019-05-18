@@ -4,6 +4,7 @@
     font-family: 'Raleway', sans-serif;
     color: $color-main-text;
     width: 100%;
+    letter-spacing: 1px;
 }
 
 * {
@@ -21,4 +22,8 @@ a {
 
 a:hover {
     color: $color-link;
+}
+
+h2 {
+    margin: 0;
 }

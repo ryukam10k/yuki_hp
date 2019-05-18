@@ -3,10 +3,12 @@
     flex-flow: row-reverse;
 
     &__head {
-        flex: 1 1 25%;
+        flex: 1 1 30%;
+        text-align: right;
+        padding-top: 65px;
     }
     &__body {
-        flex: 1 1 75%;
+        flex: 1 1 70%;
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
@@ -17,23 +19,21 @@
     }
     &__item {
         margin-right: 30px;
-        margin-bottom: 80px;
+        margin-bottom: 70px;
         letter-spacing: 5px;
-        /*
         &:last-child {
-            margin-right: 0;
+            //margin-bottom: 0;
         }
-        */
     }
     &__thumb {
         display: block;
         background-color: $color-sub;
-        max-width: 250px;
+        max-width: 220px;
         width: 100%;
         height: auto;
     }
     &__title {
-        margin-top: 25px;
+        margin-top: 20px;
     }
 }
 
