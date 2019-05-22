@@ -5,6 +5,8 @@
     color: $color-main-text;
     width: 100%;
     letter-spacing: 1px;
+    @include mq-sp {
+    }
 }
 
 * {

@@ -1,7 +1,10 @@
 .Portfolio {
     display: flex;
     flex-flow: row-reverse;
-
+    @include mq-sp {
+        display: block;
+    }
+    
     &__head {
         flex: 1 1 30%;
         text-align: right;
