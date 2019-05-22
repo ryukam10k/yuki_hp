@@ -22,5 +22,10 @@ $size-waku: 15px;
             transition: all .2s;
             text-decoration: none;
         }
+
+        @include mq-sp {
+            padding: 10px 50px;
+            font-size: .8rem;
+        }
     }
 }

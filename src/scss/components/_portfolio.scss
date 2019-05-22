@@ -4,7 +4,7 @@
     @include mq-sp {
         display: block;
     }
-    
+
     &__head {
         flex: 1 1 30%;
         text-align: right;
@@ -15,6 +15,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
+        @include mq-sp {
+            margin-top: 50px;
+        }
     }
     &__foot {
         margin-top: 30px;
@@ -24,8 +27,12 @@
         margin-right: 30px;
         margin-bottom: 70px;
         letter-spacing: 5px;
-        &:last-child {
-            //margin-bottom: 0;
+        @include mq-sp {
+            flex: 1 1 50%;
+            letter-spacing: 1px;
+            margin-right: 0;
+            margin-bottom: 10px;
+            text-align: center;
         }
     }
     &__thumb {
@@ -34,10 +41,18 @@
         max-width: 220px;
         width: 100%;
         height: auto;
+        @include mq-sp {
+            width: 90%;
+            margin: 0 auto;
+        }
     }
     &__title {
         font-size: 0.9rem;
         margin-top: 20px;
+        @include mq-sp {
+            //font-size: 0.5rem;
+            margin-top: 5px;
+        }
     }
 }
 
