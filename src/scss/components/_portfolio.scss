@@ -32,7 +32,6 @@
             letter-spacing: 1px;
             margin-right: 0;
             margin-bottom: 10px;
-            text-align: center;
         }
     }
     &__thumb {
@@ -52,6 +51,7 @@
         @include mq-sp {
             //font-size: 0.5rem;
             margin-top: 5px;
+            text-align: center;
         }
     }
 }
