@@ -4,6 +4,7 @@
     font-size: 0.8rem;
     @include mq-sp {
         display: block;
+        padding: 20px;
     }
 
     &__sub {
@@ -51,7 +52,7 @@
         background-color: gray;
         @include mq-sp {
             top: -120px;
-            left: 20px;
+            left: 40px;
             width: 200px;
         }
     }
