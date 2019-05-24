@@ -2,21 +2,36 @@
     display: flex;
     position: relative;
     font-size: 0.8rem;
+    @include mq-sp {
+        display: block;
+    }
 
     &__sub {
         flex: 1 1 35%;
+        @include mq-sp {
+            flex: 1 1 100%;
+        }
     }
     &__main {
         flex: 1 1 65%;
         justify-content: flex-end;
         background-color: $color-sub;
+        @include mq-sp {
+            flex: 1 1 100%;
+        }
     }
     &__head {
         padding-top: 50px;
         padding-left: 120px;
+        @include mq-sp {
+            padding-left: 0;
+        }
     }
     &__body {
         padding-left: 120px;
+        @include mq-sp {
+            padding: 0 30px;
+        }
     }
     &__foot {
         text-align: center;
@@ -34,6 +49,11 @@
         max-width: 455px;
         height: auto;
         background-color: gray;
+        @include mq-sp {
+            top: -120px;
+            left: 20px;
+            width: 200px;
+        }
     }
 
     &__name {
