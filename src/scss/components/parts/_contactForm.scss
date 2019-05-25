@@ -13,6 +13,10 @@
         padding: 20px;
         font-family: 'ヒラギノ角ゴ ProN W3';
         font-size: 0.8rem;
+        @include mq-sp {
+            padding: 0;
+            margin-left: 40px;
+        }
 
         & span {
             margin-left: 15px;
@@ -24,11 +28,17 @@
         padding: 10px 0;
         margin-inline-start: 0;
         margin-left: 0;
+        @include mq-sp {
+            text-align: center;
+        }
 
         & input, textarea {
             width: 100%;
             border: 0;
             padding: 10px;
+            @include mq-sp {
+                width: 80%;
+            }
         }
     }
     & .button {
