@@ -29,6 +29,7 @@
         margin-inline-start: 0;
         margin-left: 0;
         @include mq-sp {
+            padding: 0;
             text-align: center;
         }
 
@@ -38,10 +39,15 @@
             padding: 10px;
             @include mq-sp {
                 width: 80%;
+                padding: 5px;
+                margin: 5px 0 15px;
             }
         }
     }
     & .button {
         margin-top: 40px;
+        @include mq-sp {
+            margin-top: 0;
+        }
     }
 }

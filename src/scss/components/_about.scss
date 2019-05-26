@@ -5,10 +5,12 @@
     @include mq-sp {
         display: block;
         padding: 20px;
+        margin-top: 120px * 2;
     }
 
     &__sub {
         flex: 1 1 35%;
+        //position: relative;
         @include mq-sp {
             flex: 1 1 100%;
         }

@@ -1,3 +1,7 @@
 .Section {
+    position: relative;
     margin-bottom: 165px;
+    @include mq-sp {
+        margin-bottom: 100px;
+    }
 }
