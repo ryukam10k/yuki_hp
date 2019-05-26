@@ -17,6 +17,7 @@
         justify-content: flex-start;
         @include mq-sp {
             margin-top: 50px;
+            padding: 0 10px;
         }
     }
     &__foot {
@@ -62,6 +63,9 @@
     position: relative;
     display:inline-block;
     vertical-align: middle;
+    @include mq-sp {
+        font-size: 0.9rem;
+    }
 
     &::after {
         content: '';
@@ -71,6 +75,10 @@
         background: url(/dist/images/yajirushi.jpg) no-repeat;
         background-size: contain;
         margin-left: 25px;
-        //border: 1px solid gray;
+        @include mq-sp {
+            width: 60px;
+            height: 15px;
+            margin-left: 15px;
+        }
     } 
 }
