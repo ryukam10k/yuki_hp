@@ -1,5 +1,5 @@
 .contactForm {
-    max-width: 800px;
+    max-width: $form-width;
     margin: 0 auto;
     padding: 20px 0;
 
@@ -8,15 +8,15 @@
         flex-wrap: wrap;
     }
     & dt {
-        width: 250px;
+        width: $form-width * 0.3;
         text-align: left;
         padding: 20px;
         font-family: 'ヒラギノ角ゴ ProN W3';
         font-size: 0.8rem;
-        @include mq-sp {
-            width: 100%;
+        @include mq-form {
+            width: 80%;
             padding: 0;
-            margin-left: 40px;
+            margin: 0 auto;
         }
 
         & span {
@@ -24,23 +24,23 @@
         }
     }
     & dd {
-        width: 550px;
+        width: $form-width * 0.7;
         text-align: left;
         padding: 10px 0;
         margin-inline-start: 0;
         margin-left: 0;
-        @include mq-sp {
-            width: 100%;
+        @include mq-form {
+            width: 80%;
             padding: 0;
-            text-align: center;
+            margin: 0 auto;
         }
 
         & input, textarea {
-            width: 100%;
+            width: 80%;
             border: 0;
             padding: 10px;
-            @include mq-sp {
-                width: 80%;
+            @include mq-form {
+                width: 100%;
                 padding: 5px;
                 margin: 5px 0 15px;
             }
@@ -48,7 +48,7 @@
     }
     & .button {
         margin-top: 40px;
-        @include mq-sp {
+        @include mq-form {
             margin-top: 0;
         }
     }
