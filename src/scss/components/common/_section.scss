@@ -4,4 +4,7 @@
     @include mq-sp {
         margin-bottom: 100px;
     }
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
